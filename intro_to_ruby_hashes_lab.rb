@@ -12,7 +12,7 @@ end
 
 def pioneer
   # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
-hash.new
+{:name => "Grace Hopper"} = hash.New
 end
 
 def id_generator
