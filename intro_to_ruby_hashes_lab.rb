@@ -19,8 +19,8 @@ end
 
 def id_generator
   # return a hash with a key :id assigned to positive integer
-  
-
+  new_hash = {:id => 4 }
+new_hash
 end
 
 def my_hash_creator(key, value)
