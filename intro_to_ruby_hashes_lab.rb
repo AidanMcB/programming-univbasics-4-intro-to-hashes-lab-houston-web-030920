@@ -32,7 +32,7 @@ end
 def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
  
- if hash[key] != nil 
+ if hash[key] 
   return hash[key]
  else
    hash[key] = 1 
