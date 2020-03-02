@@ -31,7 +31,12 @@ end
 
 def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
-return hash[key]
+ 
+ if hash[key] != nil 
+  return hash[key]
+ else
+  return hash[key] = 1 
+ end 
 end
 
 def update_counting_hash(hash, key)
