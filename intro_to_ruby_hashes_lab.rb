@@ -34,8 +34,9 @@ def read_from_hash(hash, key)
  
  if hash[key] != nil 
   return hash[key]
- elsif hash[key] == nil
-  return hash[key] = 1 
+ else
+   hash[key] = 1 
+   return hash[key]
  end 
 end
 
